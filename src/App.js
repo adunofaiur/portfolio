@@ -71,21 +71,32 @@ function PortfolioSection(props){
 }
 
 
-// function ContentContainer(props){
-//   return (
+ function ContentContainer(props){
+  return (
+    <div class="ContentContainer">
+      <MultipleItemScrollable key="research" name="RESEARCH"/>
+    </div>
+  );
+}
+function SingleItemScrollable(props){
+  return (
+    <span class="SingleItemScrollable">
+      {props.value}
+    </span>
 
-//   );
-// }
-// function SingleItemScrollable(props){
-//   return (
+  );
+}
+function MultipleItemScrollable(props){
+  const items = ["lgbtq", "popHistory", "ideamache"];
+  const listOfItems = items.map((item) => <SingleItemScrollable key={item} value={item} />);
 
-//   );
-// }
-// function MultipleItemScrollable(props){
-//   return (
-
-//   );
-// }
+  return (
+    <div class="MultipleItemScrollable">
+      <span class="MultipleItemScrollableHeader">{props.name}</span>
+      {listOfItems}
+    </div>
+  );
+}
 // function SingleItem(props){
 //   return (
 
@@ -124,6 +135,8 @@ class App extends Component {
          <TopBar />
 
         <LeftPanel />
+
+        <ContentContainer />
         </div>
     );
   }
