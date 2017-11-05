@@ -78,11 +78,35 @@ function PortfolioSection(props){
     </div>
   );
 }
+
+function lookupItemProp(key){
+  //logic
+  return {title: "LGBTQ+ Performances Motivate Social Media Design",
+          imageSrc: "../v.jpg",
+          caption: "Omg like the best research ever done please like cite and subscribe." 
+          };
+}
 function SingleItemScrollable(props){
+  
+  //logic
+  const itemProps = lookupItemProp(props.value);
+
+
   return (
-    <span class="SingleItemScrollable">
-      {props.value}
-    </span>
+   
+
+
+
+   <div class="SingleItemScrollable">
+     
+      <div class="imageCont"><img class="scrollableImage" src={itemProps.imageSrc} /></div>
+      <div class="vertColumn">
+        <div class="title">{itemProps.title}</div>
+        <div class="caption">{itemProps.caption}</div>
+
+      </div>
+
+    </div>
 
   );
 }
