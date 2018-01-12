@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="paper-info/paper-info.css">
+
+
+<h1 class="paperTitle">{{$ctrl.paper.title}}</h1>
+<div class="paperInfo">
+  <div class="paperAuthor">
+      by {{$ctrl.paper.authors}}
+  </div>
+  <div class="paperPublishingInfo">
+    <span class="paperVenue">at {{$ctrl.paper.venue}}</span>
+    <img ng-if="$ctrl.paper.imageLink" src={{$ctrl.paper.imageLink}}></img>
+  </div>
+</div>
+<div class="paperAbstract">
+  <h2 class="paperAbstractHeader">Abstract</h2>
+  <p ng-repeat="abstractParagraph in $ctrl.paper.abstract_paragraphs">{{abstractParagraph}}
+</div>
+<div ng-if="$ctrl.paper.paragraphs" class="paperParagraphs">
+  <p ng-repeat="paragraph in $ctrl.paper.paragraphs">
+    {{paragraph}}
+  </p>
+</div>

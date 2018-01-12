@@ -1,0 +1,43 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li + li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.viewContainer{
+  max-width: 800px;
+  margin-left: 48px;
+}
+body{
+  color: #5A5A5A;
+  background-color: #f8f6f5;
+}
+h1{
+  color: #67697C;
+  font-family: 'Work Sans', sans-serif;
+
+}
+h2{
+  color: #67697C;
+  font-family: 'Work Sans', sans-serif;
+
+}

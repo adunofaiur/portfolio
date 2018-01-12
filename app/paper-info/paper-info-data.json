@@ -1,0 +1,26 @@
+{
+  "papers": [
+    {
+      "title": "Queer Visibility: Supporting LGBT+ Selective Visibility on Social Media",
+      "key": "lgbtVisibility",
+      "year": "2018",
+      "venue": "SIG'CHI 2018 in Montreal",
+      "authors": "Matthew Carrasco and Andruid Kerne",
+      "abstract_paragraphs": ["LGBT+ people adjust the presentation of their gender and sexual identities in response to social pressures, but their level of visibility differs between social media. We interviewed seventeen LGBT+ students at a socially-conservative university to investigate: (1) how do social media affect LGBT+ user experience of managing self presentation; and (2) how do social media affect participation in LGBT+ communities?",
+      "\r\nWe develop implications for design to support queering social media. (1) Give people abilities to present themselves with selective visibility, enabling choices about privacy and sharing, in contrast with the HCI design principle of indiscriminate \u2018making visible\u2019. That is, enable participants to define their social media identities in their own ways. (2) Conduct studies, with a methodology likewise ensures that participants can define their gender and sexual identities in their own ways, rather than according to a predetermined vocabulary."],
+      "paragraphs": ["An adaptation of my Master's thesis for the CHI paper format.", "We primarily reported on LGBT+ experiences on Facebook, Twitter, Instagram, tumblr, and reddit."]
+
+    },
+    {
+      "title": "popHistory: Animated Visualization of Personal Web Browsing History",
+      "key": "popHistory",
+      "year": "2017",
+      "venue": "CHI '17 EA in Denver",
+      "authors": "Matthew Carrasco, Eunyee Koh, and Sana Malik",
+      "abstract_paragraphs": ["Web browsing is an essential component of creativity, productivity, and recreation, but users may fall into undesired patterns if they do not realize their habits. Because reflection has been shown to improve control over behaviors and ability to develop goals, we emphasize reflection for self-improvement, without explicitly requiring it. In this paper, we present the design and development of a prototype which collects and visualizes users' browsing histories over time. We explore the use of animation in the visualization and learn how users analyze and reflect on their browsing behaviors.",
+      "Through a formative study using this prototype with 11 participants, we find that an animated visualization allows users to better reflect on their browsing habits and discover patterns of which they were previously unaware, especially when compared to the traditional history list view in most browsers. We discuss specific findings across six areas and their implications for future design and research."],
+      "paragraphs": ["Conducted while a Data Science intern at the Adobe BigData Experience Lab"]
+
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+.paperInfo{
+  border-bottom: 1px #253D5B solid;
+  padding-bottom: 1em;
+}
+.paperAuthor{
+  margin-right: 1em;
+  color: #B27980;
+}
+.paperYear{
+  margin-right: 1em;
+
+}
+.paperVenue{
+  margin-right: 1em;
+  color: #B27980;
+}
+.paperTitle{
+}
+.paperAbstract{
+  border-bottom: 1px #253D5B solid;
+  padding-bottom: 1em;
+}
