@@ -11,12 +11,7 @@ angular.module('myApp.projects', ['ngRoute'])
 
 .controller('projectsCtrl', function($scope) {
   $scope.projects = [
-    {
-      name: "kidGab: Moderating Social Media for Children",
-      blurb: "lorem ipsum facto oreonum",
-      image: "images/placeholder.jpg",
-      link: "#!/kidgab"
-    },
+    
     {
       name: "LGBT+ Vsibility",
       blurb: "lorem ipsum facto oreonum",
@@ -28,6 +23,18 @@ angular.module('myApp.projects', ['ngRoute'])
       blurb: "lorem ipsum facto oreonum",
       image: "images/placeholder.jpg",
       link: "#!/papers/popHistory"
+    },
+    {
+      name: "Strategies of Free-Form Web Curation",
+      blurb: "lorem ipsum facto oreonum",
+      image: "images/placeholder.jpg",
+      link: "#!/papers/freeFormCuration"
+    },
+    {
+      name: "Beyond Slideware",
+      blurb: "lorem ipsum facto oreonum",
+      image: "images/placeholder.jpg",
+      link: "#!/papers/beyondSlideware"
     }
 
   ];
