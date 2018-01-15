@@ -14,6 +14,8 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 
   $routeProvider.when('/papers/:paperKey', {
           template: '<paper-info></paper-info>'
-        }).
+        }).when('/projects', {
+                template: '<projects></projects>'
+              }).
         otherwise({redirectTo: '/main'});
 }]);

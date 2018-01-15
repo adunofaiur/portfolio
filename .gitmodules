@@ -1,0 +1,6 @@
+[submodule "flocking"]
+	path = flocking
+	url = https://github.com/adunofaiur/bouncingballs
+[submodule "flockingDemo"]
+	path = flockingDemo
+	url = https://github.com/adunofaiur/bouncingballs

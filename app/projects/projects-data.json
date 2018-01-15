@@ -1,0 +1,36 @@
+{
+  "pageHeader": "Course Projects and Demos",
+  "projects": [
+    {
+      "name": "History Viz Thing",
+      "course": "Human-Centered Computing",
+      "level": "Graduate",
+      "description": "tbd",
+      "technologies": "Chrome Extension, JS, REST, Crome API's, D3",
+      "role": "Team leader - coordinated group activities and communication in addition to programming repsonsibilities.",
+      "image": "",
+      "demoLink": ""
+    },
+    {
+      "name": "Advanced Flocking Demo",
+      "course": "Physically-Based Modeling",
+      "level": "Graduate",
+      "description": "tbd",
+      "technologies": "Physically based simulation hand-coded in Javascript. Calculus.",
+      "role": "Solo project. Defined our own demo for the simulation technique.",
+      "image": "",
+      "demoLink": ""
+    },
+    {
+      "name": "Makeup Palette Builder",
+      "course": "Done independently",
+      "level": "",
+      "description": "tbd",
+      "technologies": "Like, prolly react but who knows",
+      "role": "Solo",
+      "image": "",
+      "demoLink": ""
+    }
+
+  ]
+}
