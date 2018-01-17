@@ -7,15 +7,25 @@ angular.module('myApp', [
   'myApp.projects',
   'myApp.lgbtVisibility',
   'myApp.paperInfo',
+  'myApp.main',
+  'myApp.paperList',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.when('/papers/:paperKey', {
-          template: '<paper-info></paper-info>'
-        }).when('/projects', {
-                template: '<projects></projects>'
-              }).
-        otherwise({redirectTo: '/main'});
+  $routeProvider.
+    when('/papers/', {
+      template: '<paper-list></paper-list>'
+    }).
+    when('/papers/:paperKey', {
+      template: '<paper-info></paper-info>'
+    }).
+    when('/projects', {
+      template: '<projects></projects>'
+    }).
+    when('/main', {
+      template: '<main></main>'
+    }).
+    otherwise({redirectTo: '/main'});
 }]);

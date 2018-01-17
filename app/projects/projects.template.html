@@ -1,11 +1,25 @@
+<link rel="stylesheet" href="projects/projects.css">
 
-<ul>
-  <li ng-repeat="project in $ctrl.projects">
-    <p>{{project.name}}
-    <a href="{{project.demoLink}}">Link to Demo</a>
-  <!--  <a href="{{project.link}}">{{project.name}}</a>
-    <p>{{project.blurb}}</p>
-    <img ng-if="project.image" src={{project.image}} height="200px" width="200px"</img> -->
-  </li>
-</ul>
-dfnvidv
+<h1 class="projectsHeader">Projects</h1>
+
+<div class="divider" ng-repeat="project in $ctrl.projects">
+  <h2>{{project.name}}</h2>
+  <div ng-if="project.course" class="secondaryText breakafter"><i>{{project.level}}-level {{project.course}}</i></div>
+
+  <div class="project">
+    <div class="projectDescription">
+      <span><img class="projectImage" src={{project.image}}></img></span>
+      <span class="projectDescriptionText">{{project.description}}</span>
+    </div>
+    <div><span class="minorLabel">Technologies:</span> {{project.technologies}}</div>
+    <div ng-if="project.demo">
+      <h3>Demo</h3>
+      <a href={{project.demo.link}} target="_blank">Link (opens in new window)</a>
+      <div class="secondaryText"><i>{{project.demo.requires}}</i></div>
+
+    </div>
+  </div>
+<!--  <a href="{{project.link}}">{{project.name}}</a>
+  <p>{{project.blurb}}</p>
+  <img ng-if="project.image" src={{project.image}} height="200px" width="200px"</img> -->
+</div>

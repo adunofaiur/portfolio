@@ -1,6 +1,6 @@
 [submodule "flocking"]
 	path = flocking
 	url = https://github.com/adunofaiur/bouncingballs
-[submodule "flockingDemo"]
-	path = flockingDemo
+[submodule "app/flockingDemo"]
+	path = app/flockingDemo
 	url = https://github.com/adunofaiur/bouncingballs

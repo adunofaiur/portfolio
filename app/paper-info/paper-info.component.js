@@ -6,7 +6,7 @@ angular.
       function PaperInfoController($http, $routeParams) {
         var self = this;
 
-        $http.get('paper-info/paper-info-data.json').then(function(response) {
+        $http.get('papers.json').then(function(response) {
 
           var papers = response.data.papers;
           for (var i = 0; i < papers.length; i++){
