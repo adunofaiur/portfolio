@@ -1,16 +1,7 @@
 {
-  "pageHeader": "Course Projects and Demos",
+  "pageHeader": "Projects and Demos",
   "projects": [
-    {
-      "name": "History Viz Thing",
-      "course": "Human-Centered Computing",
-      "level": "Graduate",
-      "description": "tbd",
-      "technologies": "Chrome Extension, JS, REST, Crome API's, D3",
-      "role": "Team leader - coordinated group activities and communication in addition to programming repsonsibilities.",
-      "image": "",
-      "demoLink": ""
-    },
+
     {
       "name": "Simulating Particle Flocking",
       "course": "Physically-Based Modeling",
@@ -23,6 +14,26 @@
           "requires": "Runs best in Google Chrome for Desktop. Textures do not load in Safari.",
           "link": "/flockingDemo"
         }
+    },
+    {
+      "name": "ideaMACHE ",
+      "description": "IdeaMâché is a browser-based expressive web curation system that uses information composition as the medium of curation. Curation is the process of assembling information in meaningful exhibits, for people to think about. IdeaMâché allows users to collect, arrange, annotate and synthesize digital content to express relationships and develop ideas.",
+      "technologies": "JS. REST. Chrome Extension",
+      "team": "Implemented bibliography generation (works best for papers from the ACM DL). Interviewed users for research projects. Assorted debugging and maintenance work over the years.",
+      "image": "/images/ideamacheLogo.png",
+      "demo": {
+          "requires": "Requires Chrome. Will prompt you to install the IdeaMACHE extension, which allows ideaMACHE to generate metadata for curated elemets.",
+          "link": "https://ideamache.ecologylab.net/"
+        }
+    },
+
+    {
+      "name": "KidGab Moderation",
+      "course": "Capstone Project",
+      "level": "Undergraduate",
+      "description": "We implemented and did a formative evaluation of two moderation systems for KidGab, a social media platform for children: (1) Tools for reporting and moderating comments; (2) Machine learning model for automatically flaging comments for review. The KidGab project was created by Stephanie Valentine",
+      "technologies": "JS, WordPress Plugings, Weka",
+      "team": "Team leader - coordinated group activities and communication in addition to programming repsonsibilities."
     },
     {
       "name": "Makeup Palette Builder",

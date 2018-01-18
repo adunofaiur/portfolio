@@ -8,10 +8,12 @@
 
   <div class="project">
     <div class="projectDescription">
-      <span><img class="projectImage" src={{project.image}}></img></span>
+      <span><img  ng-if="project.image" class="projectImage" src={{project.image}}></img></span>
       <span class="projectDescriptionText">{{project.description}}</span>
     </div>
     <div><span class="minorLabel">Technologies:</span> {{project.technologies}}</div>
+    <div><span ng-if="project.team" class="minorLabel">Team:</span> {{project.team}}</div>
+
     <div ng-if="project.demo">
       <h3>Demo</h3>
       <a href={{project.demo.link}} target="_blank">Link (opens in new window)</a>

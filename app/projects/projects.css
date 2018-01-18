@@ -4,6 +4,8 @@
 .projectImage{
   height: 120px;
   width: 120px;
+  margin-right: .5em
+
 }
 .projectDescription{
   display: flex;
@@ -11,5 +13,4 @@
 
 }
 .projectDescriptionText{
-  margin-left: .5em
 }
