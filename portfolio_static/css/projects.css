@@ -1,0 +1,16 @@
+.project{
+  margin-left: 1em
+}
+.projectImage{
+  height: 120px;
+  width: 120px;
+  margin-right: .5em
+
+}
+.projectDescription{
+  display: flex;
+  -webkit-margin-after: .84em;
+
+}
+.projectDescriptionText{
+}
