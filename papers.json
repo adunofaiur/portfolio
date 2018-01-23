@@ -1,0 +1,45 @@
+{
+  "papers": [
+    {
+      "title": "Queer Visibility: Supporting LGBT+ Selective Visibility on Social Media",
+      "key": "lgbtVisibility",
+      "year": "2018",
+      "venue": "SIG'CHI 2018 in Montreal",
+      "authors": "Matthew Carrasco and Andruid Kerne",
+      "abstract_paragraphs": ["LGBT+ people adjust the presentation of their gender and sexual identities in response to social pressures, but their level of visibility differs between social media. We interviewed seventeen LGBT+ students at a socially-conservative university to investigate: (1) how do social media affect LGBT+ user experience of managing self presentation; and (2) how do social media affect participation in LGBT+ communities?",
+      "\r\nWe develop implications for design to support queering social media. (1) Give people abilities to present themselves with selective visibility, enabling choices about privacy and sharing, in contrast with the HCI design principle of indiscriminate \u2018making visible\u2019. That is, enable participants to define their social media identities in their own ways. (2) Conduct studies, with a methodology likewise ensures that participants can define their gender and sexual identities in their own ways, rather than according to a predetermined vocabulary."],
+      "paragraphs": ["An adaptation of my Master's thesis for the CHI paper format.", "We primarily reported on LGBT+ experiences on Facebook, Twitter, Instagram, tumblr, and reddit."]
+
+    },
+    {
+      "title": "popHistory: Animated Visualization of Personal Web Browsing History",
+      "key": "popHistory",
+      "year": "2017",
+      "venue": "CHI '17 EA in Denver",
+      "authors": "Matthew Carrasco, Eunyee Koh, and Sana Malik",
+      "abstract_paragraphs": ["Web browsing is an essential component of creativity, productivity, and recreation, but users may fall into undesired patterns if they do not realize their habits. Because reflection has been shown to improve control over behaviors and ability to develop goals, we emphasize reflection for self-improvement, without explicitly requiring it. In this paper, we present the design and development of a prototype which collects and visualizes users' browsing histories over time. We explore the use of animation in the visualization and learn how users analyze and reflect on their browsing behaviors.",
+      "Through a formative study using this prototype with 11 participants, we find that an animated visualization allows users to better reflect on their browsing habits and discover patterns of which they were previously unaware, especially when compared to the traditional history list view in most browsers. We discuss specific findings across six areas and their implications for future design and research."],
+      "paragraphs": ["Conducted while a Data Science intern at the Adobe BigData Experience Lab"]
+
+    },
+    {
+      "title": "Strategies of Free-Form Web Curation: Processes of Creative Engagement with Prior Work",
+      "key": "freeFormCuration",
+      "venue": "C&C '17'",
+      "year": "2017",
+      "authors": "Andruid Kerne, Nic Lupfer, Rhema Linder, Yin Qu, Alyssa Valdez, Ajit Jain, Kade Keith, Matthew Carrasco, Jorge Vanegas, Andrew Billinslet",
+      "abstract_paragraphs": ["We synthesize principles across art, design, writing, and psychology to articulate strategies of free-form web curation, for stimulating students' creative engagement with prior work, in performance of ideation tasks. We manifest the strategies in an interactive system and pedagogy. Free-form web curation is a form of new media--designed to enable users to conceptualize and create new contexts--in which they discover, interpret, and represent relationships, by composing readymade and self-made content elements. The strategies are Collect, Assemble, Shift Perspective, Sketch, Write, and Exhibit. We conducted a field study involving 1247 students over 4 semesters. We connect visual, quantitative, and experiential data to show how students engage with prior work through the free-form web curation strategies, system, and pedagogy. We develop implications for design of web curation systems and education. We coalesce a theory of free-form web curation, based on the strategies, emphasizing the roles of space and context."],
+      "paragraphs": ["I co-conducted semi-structured interviews, transcribed transcripts, and performed multiple round of primary and secondary coding."]
+    },
+    {
+      "title": "Beyond Slideware: How a Free-form Presentation Medium Stimulates Free-form Thinking in the Classroom",
+      "key": "beyondSlideware",
+      "venue": "C&C '15",
+      "year": "2015",
+      "authors": "Rhema Linder, Nic Lupfer, Andruid Kerne, Andrew M. Webb, Cameron Hill, Yin Qu, Kade Keithe, Matthew Carrasco, Elizabeth Kellog",
+      "abstract_paragraphs": ["We investigate how presentation in a free-form medium stimulates free-form thinking and discussion in the classroom. Most classroom presentations utilize slideware (e.g. PowerPoint). Yet, slides add intrusive segregations that obstruct the flow of information. In contrast, in a free-form medium of presentation, content is not separated into rigid slide compartments. Instead, it is visually arranged and transformed in a continuous space."
+        ,"We develop a case study that investigates student experiences authoring, presenting, viewing, and discussing free-form presentations in a graduate seminar class. We analyze interviews, present a sampling of student presentations, and develop findings: free-form presentation stimulates free-form thinking, spontaneous discussion, and emergent ideation."],
+      "paragraphs": ["I developed bibliography generation for curated elements in the ideaMache web app that were evaluated as part of the study."]
+    }
+  ]
+}
