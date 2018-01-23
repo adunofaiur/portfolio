@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="paper-list/paper-list.css">
+
+<h1>Papers</h1>
+
+<h1 class="paperTitle">{{$ctrl.paper.title}}</h1>
+<div class="papersSubtitle divider"><i>by year</i></div>
+<div class="paper" ng-repeat="paper in $ctrl.papers | orderBy:'-year'">
+  <a class="paperLink" href="/#!/papers/{{paper.key}}" class="paperTitle">{{paper.title}}</a>
+  <div class="paperAuthors secondaryText"><i>{{paper.authors}}</i></div>
+</div>
