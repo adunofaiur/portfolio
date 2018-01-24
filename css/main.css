@@ -1,7 +1,6 @@
 .bio{
   font-size: 1em;
   color: #B27980;
-  -webkit-margin-before: -.83em;
 }
 /* app css stylesheet */
 
@@ -84,12 +83,22 @@
   display: block;
 
 }
+.profileHeader{
+  display: flex;
+}
+.links{
+  margin-left: 1em;
+
+}
+.headshot{
+}
 body{
   color: #5A5A5A;
   background-color: #f8f6f5;
 
   max-width: 800px;
   margin-left: 3em;
+  margin-right: 3em;
   margin-top: 2em;
 }
 h1{
